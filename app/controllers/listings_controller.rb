@@ -19,6 +19,7 @@ class ListingsController < ApplicationController
 
   # GET /listings/1/edit
   def edit
+    @listing = Listing.find_by(id: params[:id])
   end
 
   # POST /listings
