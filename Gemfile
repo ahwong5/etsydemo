@@ -9,7 +9,7 @@ gem 'carrierwave'
 gem 'carrierwave-dropbox'
 # Use Figaro to protect your private account
 gem 'figaro'
-
+# user mini_magick so that we can use ImageMagick in rails
 gem 'mini_magick'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
