@@ -3,9 +3,13 @@ ruby '2.3.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
-# Use sqlite3 as the database for Active Record
+# Use carrierwave to upload image
 gem 'carrierwave'
+# Use carrierwave-dropbox to upload image to dropbox and stored permanently
 gem 'carrierwave-dropbox'
+# Use Figaro to protect your private account
+gem 'figaro'
+
 gem 'mini_magick'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
